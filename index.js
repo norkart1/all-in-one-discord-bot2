@@ -95,7 +95,7 @@ client.giveawaysManager = new GiveawaysManager(client, {
   },
 });
 
-/* Client's GiveawaysManager Events */
+/* Client's GiveawaysManaer Events */
 client.giveawaysManager.on(
   "giveawayReactionAdded",
   async (giveaway, reactor, messageReaction) => {
